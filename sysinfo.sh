@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "System Info Report"
 echo "==================="
+echo "system Uptime:"
+uptime
 echo "Hostname: $(hostname)"
 echo "Operating System: $(uname -s)"
 
