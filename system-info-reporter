@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "System Info Report"
 echo "==================="
-
+echo "Hostname: $(hostname)"
+echo "Operating System: $(uname -s)"
