@@ -1,0 +1,15 @@
+name: Run System Info Script
+on: push
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the code
+        uses: actions/checkout@v4
+      - name: make script executable
+        run: chmod +x sysinfo.sh
+
+      - name: run the script
+        run: ./sysinfo.sh
+
+
