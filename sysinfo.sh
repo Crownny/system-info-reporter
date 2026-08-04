@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+set -e
+
+
 echo "System Info Report"
 echo "==================="
 echo "Kernel Version:"
