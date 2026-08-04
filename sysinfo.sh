@@ -3,11 +3,12 @@ echo "System Info Report"
 echo "==================="
 echo "Kernel Version:"
 uname -r
+i
 echo "system Uptime:"
 uptime
 echo "Hostname: $(hostname)"
 echo "Operating System: $(uname -s)"
-
+ testing_if_thiswillwork
 echo "Disk Usage:"
 df -h | head -5
 
