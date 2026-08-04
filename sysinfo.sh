@@ -8,7 +8,7 @@ echo "system Uptime:"
 uptime
 echo "Hostname: $(hostname)"
 echo "Operating System: $(uname -s)"
- testing_if_thiswillwork
+ "testing_if_thiswillwork:"
 echo "Disk Usage:"
 df -h | head -5
 
