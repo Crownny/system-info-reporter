@@ -7,7 +7,7 @@ echo "System Info Report"
 echo "==================="
 echo "Kernel Version:"
 uname -r
-i
+
 echo "system Uptime:"
 uptime
 echo "Hostname: $(hostname)"
